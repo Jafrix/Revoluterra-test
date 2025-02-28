@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Slider = ({ onChange }) => {
+const SliderRange100 = ({ onChange }) => {
   const [value, setValue] = useState(50);
 
   const handleChange = (e) => {
@@ -64,4 +64,4 @@ const Slider = ({ onChange }) => {
   );
 };
 
-export default Slider;
+export default SliderRange100;

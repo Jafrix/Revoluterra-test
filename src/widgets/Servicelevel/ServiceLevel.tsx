@@ -1,4 +1,5 @@
-import Slider from "./Slider-range-100";
+import Slider from "../../shared/Slider-range-100";
+import questImage from "../../assets/Question.png";
 import { useState } from "react";
 
 function ServiceLevel() {
@@ -20,7 +21,7 @@ function ServiceLevel() {
       >
         <img
           className="w-[24px] hover:cursor-pointer"
-          src="../public/Question.png"
+          src={questImage}
           alt="Информация"
         />
 
@@ -41,20 +42,6 @@ function ServiceLevel() {
       </p>
     </div>
   );
-
-  //   (
-  //     <div className="relative w-[430px] flex flex-col p-[32px] bg-white mt-[16px] rounded-[8px]">
-  //       <img className="absolute top-[16px] right-[15px] w-[24px] hover:cursor-pointer" src="../public/Question.png"></img>
-  //       <div className=" text-[24px]">Уровень сервиса</div>
-  //       <div className="flex gap-[8px]">
-  //         <Slider />
-  //       </div>
-  //       <p className="text-[14px] mt-[16px] mb-[8px]">У вас высокий уровень</p>
-  //       <p className="text-[13px] text-[#636570]">
-  //         Спасибо, что следуете правилам, — за это положены преимущества
-  //       </p>
-  //     </div>
-  //   );
 }
 
 export default ServiceLevel;

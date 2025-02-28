@@ -1,4 +1,5 @@
-import SliderRange10 from "./Slider-range-10";
+import SliderRange10 from "../../shared/Slider-range-10";
+import questImage from "../../assets/Question.png"
 import { useState } from "react";
 
 function Actual() {
@@ -13,7 +14,7 @@ function Actual() {
       >
         <img
           className="w-[24px] hover:cursor-pointer"
-          src="../public/Question.png"
+          src={questImage}
           alt="Информация"
         />
 
