@@ -1,6 +1,7 @@
 # Revoluterra test Task
 
  Updated to newest version:
-- All components decomposed much better
-- All components moved into relevant layers (In accordance with the FSD model)
-- Added better skeleton - reusable component
+ 
+- Все компоненты декомпозированы для лучшего переиспользования
+- Все компоненты перемещены в соответствующие слои по модели FSD
+- Добавлен улучшенный скелетон как компонент для возможности переиспользования в любой части проекта
